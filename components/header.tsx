@@ -1,1 +1,73 @@
-"use client";import Link from"next/link";import{Menu,X}from"lucide-react";import{useState}from"react";import{ThemeToggle}from"./theme-toggle";const links=[["À propos","/about"],["Parcours","/parcours"],["Projets","/projects"],["Expérience","/experience"],["Au-delà","/beyond-tech"],["Contact","/contact"]];export function Header(){const[open,setOpen]=useState(false);return <header className="sticky top-0 z-50 border-b border-line/70 bg-paper/85 backdrop-blur-xl"><div className="container-page flex h-16 items-center justify-between"><Link href="/" className="font-extrabold tracking-tight">MR<span className="text-accent">.</span></Link><nav className="hidden items-center gap-5 text-sm lg:flex">{links.map(([n,h])=><Link key={h} href={h} className="text-muted transition hover:text-ink">{n}</Link>)}<a href="/cv/Maroua_RABI_CV.pdf" download className="rounded-full bg-brand px-4 py-2 text-white">CV</a><ThemeToggle/></nav><button className="lg:hidden" aria-label="Ouvrir le menu" onClick={()=>setOpen(!open)}>{open?<X/>:<Menu/>}</button></div>{open&&<nav className="container-page grid gap-1 pb-5 lg:hidden">{links.map(([n,h])=><Link key={h} href={h} onClick={()=>setOpen(false)} className="border-b border-line py-3">{n}</Link>)}<div className="mt-3 flex items-center gap-3"><a href="/cv/Maroua_RABI_CV.pdf" download> Télécharger le CV</a><ThemeToggle/></div></nav>}</header>}
+"use client";
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
+import { ThemeToggle } from "./theme-toggle";
+const links = [
+  ["À propos", "/about"],
+  ["Parcours", "/parcours"],
+  ["Projets", "/projects"],
+  ["Expérience", "/experience"],
+  ["Certifications", "/certifications"],
+  ["Au-delà", "/beyond-tech"],
+  ["Contact", "/contact"],
+];
+export function Header() {
+  const [open, setOpen] = useState(false);
+  return (
+    <header className="sticky top-0 z-50 border-b border-line/70 bg-paper/85 backdrop-blur-xl">
+      <div className="container-page flex h-16 items-center justify-between">
+        <Link href="/" className="font-extrabold tracking-tight">
+          MR<span className="text-accent">.</span>
+        </Link>
+        <nav className="hidden items-center gap-5 text-sm lg:flex">
+          {links.map(([n, h]) => (
+            <Link
+              key={h}
+              href={h}
+              className="text-muted transition hover:text-ink"
+            >
+              {n}
+            </Link>
+          ))}
+          <a
+            href="/cv/Maroua_RABI_CV.pdf"
+            download
+            className="rounded-full bg-brand px-4 py-2 text-white"
+          >
+            CV
+          </a>
+          <ThemeToggle />
+        </nav>
+        <button
+          className="lg:hidden"
+          aria-label="Ouvrir le menu"
+          onClick={() => setOpen(!open)}
+        >
+          {open ? <X /> : <Menu />}
+        </button>
+      </div>
+      {open && (
+        <nav className="container-page grid gap-1 pb-5 lg:hidden">
+          {links.map(([n, h]) => (
+            <Link
+              key={h}
+              href={h}
+              onClick={() => setOpen(false)}
+              className="border-b border-line py-3"
+            >
+              {n}
+            </Link>
+          ))}
+          <div className="mt-3 flex items-center gap-3">
+            <a href="/cv/Maroua_RABI_CV.pdf" download>
+              {" "}
+              Télécharger le CV
+            </a>
+            <ThemeToggle />
+          </div>
+        </nav>
+      )}
+    </header>
+  );
+}
