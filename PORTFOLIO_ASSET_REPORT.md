@@ -26,6 +26,7 @@ Tous les dossiers demandés étaient accessibles. Les zones `AppData`, caches, e
 - Profil : portrait professionnel confirmé par Maroua et optimisé en WebP.
 - WMS augmenté par l’IA : photo d’équipe, poster technique et remise du 2e prix.
 - Lambda vs Kappa : couverture de la présentation du cas de trading en temps réel.
+- PFE cardiovasculaire : soutenance, clôture et portraits de diplomation.
 
 Les données TypeScript ont été mises à jour avec les chemins, textes alternatifs, légendes et catégories de galerie. Le README local de la maintenance prédictive confirme un pipeline testé de bout en bout et un dataset de 100 000 relevés ; aucune extrapolation n’a été ajoutée.
 
@@ -57,7 +58,7 @@ Projet disposant d’un premier visuel mais encore incomplet :
 - SAM : comparaison, courbes et loss landscape.
 - NLP rêves : interface et exemples anonymisés.
 - DevOps monitoring : pipeline, Kubernetes et monitoring.
-- Cardiovasculaire : Streamlit, comparaison des modèles et alerte email anonymisée.
+- Cardiovasculaire : il manque encore Streamlit, la comparaison des modèles et l’alerte email anonymisée.
 - Auto-price : scraping, résultats et interface Streamlit.
 - Fraud Detection : matrice, seuil et interface.
 - Blockchain Diploma : smart contract et écran de vérification.

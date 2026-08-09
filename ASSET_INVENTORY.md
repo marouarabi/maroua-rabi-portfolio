@@ -15,6 +15,10 @@ Scan local effectué le 7 août 2026 sur `Desktop`, `Documents`, `Pictures` et `
 | WMS augmenté par l’IA | 1778528795556.jfif | `C:\Users\Pc\Desktop\1778528795556.jfif` | JFIF | RESULT / AWARD | GOOD | USE |
 | WMS augmenté par l’IA | 1778528769296.jfif | `C:\Users\Pc\Desktop\1778528769296.jfif` | JFIF | AWARD | GOOD | USE |
 | Lambda vs Kappa | lambda.PNG | `C:\Users\Pc\Desktop\Portfolio\lambda.PNG` | PNG | HERO / ARCHITECTURE | EXCELLENT | USE |
+| PFE cardiovasculaire | 473188b5-122a-4bb3-8340-0b38cd49589c.jfif | `C:\Users\Pc\Desktop\473188b5-122a-4bb3-8340-0b38cd49589c.jfif` | JFIF | HERO / EVENT | EXCELLENT | USE |
+| PFE cardiovasculaire | ba15d6a7-e6b3-4704-89db-840145a81c58.jfif | `C:\Users\Pc\Desktop\ba15d6a7-e6b3-4704-89db-840145a81c58.jfif` | JFIF | EVENT | GOOD | USE |
+| Parcours académique | 4c3679b8-593d-477d-9668-b48268c029bc.jfif | `C:\Users\Pc\Desktop\4c3679b8-593d-477d-9668-b48268c029bc.jfif` | JFIF | OTHER | EXCELLENT | USE |
+| Parcours académique | 29f60d73-45ae-43e0-8360-59a9cd85dc27.jfif | `C:\Users\Pc\Desktop\29f60d73-45ae-43e0-8360-59a9cd85dc27.jfif` | JFIF | OTHER | EXCELLENT | USE |
 | Parcours FSBM | RABI_Maroua.png | `C:\Users\Pc\Downloads\RABI_Maroua.png` | PNG | OTHER | GOOD | REVIEW_PRIVACY — CIN, code étudiant, naissance et signature visibles |
 | Portrait | ce91d745-e163-4f36-80c7-332dddd8e712.jpg | `C:\Users\Pc\Desktop\ce91d745-e163-4f36-80c7-332dddd8e712.jpg` | JPG | HERO | EXCELLENT | USE — confirmé par Maroua le 8 août 2026 |
 | Certification ALX | 40-alx-aice-ai-career-essentials-certificate-maroua-rabi.png | `C:\Users\Pc\Desktop\certif\40-alx-aice-ai-career-essentials-certificate-maroua-rabi.png` | PNG | CERTIFICATE | EXCELLENT | REVIEW_PRIVACY — certificat complet et QR credential |

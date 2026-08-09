@@ -330,6 +330,38 @@ export const projects: Project[] = [
       "Streamlit",
     ],
     featured: true,
+    heroImage: {
+      src: "/images/projects/cardiovascular/cardio-graduation-hero.webp",
+      alt: "Portrait de diplomation de Maroua RABI à la FSBM",
+      caption: "Diplomation à la Faculté des Sciences Ben M’Sik",
+      category: "Award",
+    },
+    gallery: [
+      {
+        src: "/images/projects/cardiovascular/cardio-pfe-presentation.webp",
+        alt: "Présentation du PFE de prédiction cardiovasculaire devant le jury",
+        caption: "Présentation de la problématique et du système",
+        category: "Interface",
+      },
+      {
+        src: "/images/projects/cardiovascular/cardio-pfe-closing.webp",
+        alt: "Clôture de la soutenance du PFE cardiovasculaire",
+        caption: "Clôture de la soutenance académique",
+        category: "Interface",
+      },
+      {
+        src: "/images/projects/cardiovascular/cardio-graduation-portrait.webp",
+        alt: "Portrait de diplomation à la FSBM",
+        caption: "Diplomation à la Faculté des Sciences Ben M’Sik",
+        category: "Award",
+      },
+      {
+        src: "/images/projects/cardiovascular/cardio-graduation-moment.webp",
+        alt: "Moment de diplomation à la FSBM",
+        caption: "Aboutissement du parcours de Licence d’Excellence",
+        category: "Award",
+      },
+    ],
     disclaimer:
       "Prototype académique d’aide à la décision, et non dispositif médical.",
     pipeline: [
