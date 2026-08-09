@@ -1,0 +1,1 @@
+export const achievements = [{title:"MACC 2026",detail:"1ère place FSBM · Top 21 national",context:"Équipe Root Access"},{title:"Journée des Posters FSBM",detail:"2e prix du meilleur projet",context:"WMS augmenté par IA"}];

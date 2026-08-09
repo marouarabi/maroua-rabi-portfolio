@@ -1,0 +1,2 @@
+import type { Config } from "tailwindcss";
+export default { darkMode: "class", content: ["./app/**/*.{ts,tsx}","./components/**/*.{ts,tsx}","./data/**/*.{ts,tsx}"], theme: { extend: { colors: { ink: "var(--ink)", paper: "var(--paper)", muted: "var(--muted)", line: "var(--line)", brand: "var(--brand)", accent: "var(--accent)" }, fontFamily: { sans: ["var(--font-manrope)","sans-serif"] }, boxShadow: { soft: "0 18px 60px rgba(20,40,70,.08)" } } }, plugins: [] } satisfies Config;
