@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Download, MapPin } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import { featuredProjects } from "@/data/projects";
 import { education } from "@/data/education";
 import { profile } from "@/data/profile";
@@ -22,6 +22,9 @@ export default function Home() {
             <p className="mt-8 max-w-2xl text-xl font-medium leading-relaxed sm:text-2xl">
               Étudiante en Master d’Excellence en Intelligence Artificielle &
               Data Science.
+            </p>
+            <p className="mt-3 text-lg font-semibold text-brand sm:text-xl">
+              Future AI Engineer & Data Scientist
             </p>
             <p className="body-lg mt-5 max-w-[46rem] leading-[1.65]">
               À l’intersection de l’intelligence artificielle, de la donnée et
@@ -51,10 +54,6 @@ export default function Home() {
               </a>
             </div>
             <div className="mt-10 flex flex-wrap gap-5 text-sm text-muted">
-              <span className="flex items-center gap-2">
-                <MapPin size={15} />
-                Casablanca, Maroc
-              </span>
               <a href={profile.github}>GitHub</a>
               <a href={profile.linkedin}>LinkedIn</a>
               <a href={`mailto:${profile.email}`}>Email</a>
@@ -73,7 +72,7 @@ export default function Home() {
             </div>
             <div className="absolute -bottom-5 -left-5 rounded-2xl border border-line bg-paper/90 px-5 py-4 shadow-soft backdrop-blur">
               <p className="eyebrow">Focus</p>
-              <p className="mt-1 font-bold">AI · Data · Cyber</p>
+              <p className="mt-1 font-bold">AI · Data · MLOps</p>
             </div>
           </Reveal>
         </div>
@@ -84,11 +83,10 @@ export default function Home() {
           <Reveal>
             <h2 className="heading">Entraîner un modèle n’est que le début.</h2>
             <p className="body-lg mt-6">
-              À la FSBM — Université Hassan II de Casablanca, mon parcours m’a
-              menée du Machine Learning au Deep Learning, puis vers le NLP, la
-              Computer Vision, la Data Engineering, le MLOps et la
-              cybersécurité. Mon ambition : relier ces disciplines pour livrer
-              des solutions complètes, utiles et robustes.
+              Mon parcours m’a menée du Machine Learning au Deep Learning, puis
+              vers le NLP, la Computer Vision, la Data Engineering et le MLOps.
+              Mon ambition : relier ces disciplines pour concevoir des solutions
+              complètes, utiles et robustes.
             </p>
             <Link href="/about" className="link-arrow mt-7">
               En savoir plus sur mon parcours <ArrowRight size={17} />
@@ -171,14 +169,6 @@ export default function Home() {
                 </div>
               </div>
             ))}
-            <div className="relative grid gap-2 md:grid-cols-[180px_1fr]">
-              <span className="absolute -left-[32px] top-1 h-3 w-3 rounded-full bg-brand" />
-              <p className="text-sm text-muted">2027</p>
-              <div>
-                <p className="eyebrow">Next chapter</p>
-                <h3 className="mt-2 text-xl font-bold">France + Alternance</h3>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -204,24 +194,6 @@ export default function Home() {
               Découvrir cette dimension <ArrowRight size={17} />
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="container-page rounded-[2rem] bg-[#e9edf5] px-7 py-16 text-center text-[#111827] sm:px-16">
-          <p className="eyebrow">Objectif 2027 · France</p>
-          <h2 className="heading mx-auto mt-5 max-w-3xl">
-            Ce que je construis aujourd’hui prépare ce que je veux faire demain.
-          </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-[#536176]">
-            Je suis ouverte aux opportunités d’alternance et aux échanges autour
-            de l’IA, du MLOps, de la Data et de la cybersécurité.
-          </p>
-          <Link
-            href="/contact"
-            className="mt-8 inline-flex rounded-full bg-brand px-6 py-3 font-bold text-white"
-          >
-            Construisons la prochaine étape
-          </Link>
         </div>
       </section>
     </>

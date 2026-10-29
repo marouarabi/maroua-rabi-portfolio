@@ -552,7 +552,6 @@ export const projects: Project[] = [
     "distributed_sort",
     "MapReduce / MPI / Spark",
     "traffic-analysis-system",
-    "Cyber-Sentinel",
   ].map(
     (title, i): Project => ({
       slug: [
@@ -560,7 +559,6 @@ export const projects: Project[] = [
         "distributed-sort",
         "mapreduce-mpi-spark",
         "traffic-analysis-system",
-        "cyber-sentinel",
       ][i],
       title,
       domain: "Engineering Lab",
@@ -571,7 +569,7 @@ export const projects: Project[] = [
       challenge: "TODO — préciser le problème technique.",
       solution: "TODO — documenter l’approche.",
       contribution: "TODO — préciser la contribution.",
-      categories: [i === 4 ? "Cybersecurity" : "Distributed Systems"],
+      categories: ["Distributed Systems"],
       technologies: [],
       lab: true,
       results: ["TODO — résultat vérifié à ajouter."],

@@ -64,6 +64,7 @@ export type Certification = {
   name: string;
   issuer: string;
   year?: string;
+  description?: string;
   credentialUrl?: string;
 };
 export type Event = {
